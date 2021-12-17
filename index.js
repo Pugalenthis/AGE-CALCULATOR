@@ -41,7 +41,7 @@ function displaydata(){
     var monthdiff=(yeardiff*12)+(currentdate.getMonth()-inputdate.getMonth());
     console.log(monthdiff);
 
-    div.innerHTML = `${millisecdiff} milliseconds. ${seconddiff}seconds. ${minutediff}minutes. ${hoursdiff}hours. ${daydiff}days. ${yeardiff}years. ${monthdiff}months.`;
+    div.innerHTML = `${millisecdiff} milliseconds.<br> ${seconddiff}seconds.<br> ${minutediff}minutes.<br> ${hoursdiff}hours.<br> ${daydiff}days.<br> ${yeardiff}years.<br> ${monthdiff}months.`;
 
    }
    else{
